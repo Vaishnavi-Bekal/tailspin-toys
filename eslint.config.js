@@ -27,6 +27,10 @@ export default [
         "error",
         { argsIgnorePattern: "^_", varsIgnorePattern: "^_" },
       ],
+      semi: ["error", "always"],
+      "comma-dangle": ["error", "always-multiline"],
+      "object-curly-spacing": ["error", "always"],
+      "eol-last": ["error", "always"],
     },
   },
 
